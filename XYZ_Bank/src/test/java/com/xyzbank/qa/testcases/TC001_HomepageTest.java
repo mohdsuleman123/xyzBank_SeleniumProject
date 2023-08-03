@@ -16,11 +16,11 @@ import org.testng.annotations.Test;
 import com.xyzbank.qa.base.TestBase;
 import com.xyzbank.qa.pages.Homepage;
 
-public class HomepageTest extends TestBase
+public class TC001_HomepageTest extends TestBase
 {
 	Homepage hp;
 	
-	public HomepageTest() throws IOException 
+	public TC001_HomepageTest() throws IOException 
 	{
 		super();
 	}

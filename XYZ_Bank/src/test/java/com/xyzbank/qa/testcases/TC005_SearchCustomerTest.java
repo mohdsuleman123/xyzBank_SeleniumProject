@@ -14,13 +14,13 @@ import com.xyzbank.qa.pages.CustomerLoginPage;
 import com.xyzbank.qa.pages.CustomerslistPage;
 import com.xyzbank.qa.pages.Homepage;
 
-public class SearchCustomerTest extends TestBase {
+public class TC005_SearchCustomerTest extends TestBase {
 
 	Homepage hp;
 	BankManagerLoginPage bmlp;
 	CustomerslistPage clp;
 		
-	public SearchCustomerTest() throws IOException 
+	public TC005_SearchCustomerTest() throws IOException 
 	{
 		super();		
 	}

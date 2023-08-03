@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T16:19:14 IST" name="Default suite" finished-at="2023-08-03T16:19:25 IST" duration-ms="10956">
+  <suite started-at="2023-08-03T18:25:06 IST" name="Default suite" finished-at="2023-08-03T18:25:18 IST" duration-ms="12187">
     <groups>
     </groups>
-    <test started-at="2023-08-03T16:19:14 IST" name="Default test" finished-at="2023-08-03T16:19:25 IST" duration-ms="10956">
+    <test started-at="2023-08-03T18:25:06 IST" name="Default test" finished-at="2023-08-03T18:25:18 IST" duration-ms="12187">
       <class name="com.xyzbank.qa.testcases.SearchCustomerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.SearchCustomerTest@59fd97a8]" started-at="2023-08-03T16:19:14 IST" name="setup" finished-at="2023-08-03T16:19:20 IST" duration-ms="5920" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.SearchCustomerTest@59fd97a8]" started-at="2023-08-03T18:25:06 IST" name="setup" finished-at="2023-08-03T18:25:12 IST" duration-ms="6788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearch()[pri:0, instance:com.xyzbank.qa.testcases.SearchCustomerTest@59fd97a8]" started-at="2023-08-03T16:19:20 IST" name="verifySearch" finished-at="2023-08-03T16:19:24 IST" duration-ms="4072" status="PASS">
+        <test-method signature="verifySearch()[pri:0, instance:com.xyzbank.qa.testcases.SearchCustomerTest@59fd97a8]" started-at="2023-08-03T18:25:12 IST" name="verifySearch" finished-at="2023-08-03T18:25:17 IST" duration-ms="4282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyzbank.qa.testcases.SearchCustomerTest@59fd97a8]" started-at="2023-08-03T16:19:24 IST" name="tearDown" finished-at="2023-08-03T16:19:25 IST" duration-ms="932" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyzbank.qa.testcases.SearchCustomerTest@59fd97a8]" started-at="2023-08-03T18:25:17 IST" name="tearDown" finished-at="2023-08-03T18:25:18 IST" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

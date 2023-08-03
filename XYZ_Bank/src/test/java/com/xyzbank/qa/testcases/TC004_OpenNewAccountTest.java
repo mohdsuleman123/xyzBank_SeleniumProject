@@ -1,57 +1,54 @@
 package com.xyzbank.qa.testcases;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.xyzbank.qa.base.TestBase;
-import com.xyzbank.qa.pages.AddCustomerPage;
 import com.xyzbank.qa.pages.BankManagerLoginPage;
 import com.xyzbank.qa.pages.Homepage;
+import com.xyzbank.qa.pages.OpenAccountPage;
 
-public class AddNewCustomerTest extends TestBase{
+public class TC004_OpenNewAccountTest extends TestBase{
 
 	Homepage hp;
-	AddCustomerPage acp;
 	BankManagerLoginPage bmlp;
+	OpenAccountPage oap;
 	
-	public AddNewCustomerTest() throws IOException {
+	public TC004_OpenNewAccountTest() throws IOException {
 		super();
 	}
-
+	
 	@BeforeMethod
 	public void setup() throws IOException, InterruptedException
 	{
 		initialization();
 		hp=new Homepage();
-		acp=new AddCustomerPage();
 		bmlp=new BankManagerLoginPage();
+		oap=new OpenAccountPage();
 	}
 	
-	@Test
-	public void verifyManagerLogin() throws Exception
+	@Test(priority = 3)
+	public void createAccount() throws Exception
 	{
-		hp.managerloginBtn();
-		bmlp.clickaddCustomerTab();
+		bmlp=hp.managerloginBtn();
+		oap=bmlp.clickopenAccountTab();
+		oap.selectCustomer();
+		oap.selectCurrency();
 		Thread.sleep(1000);
-		acp.enterFName();
-		acp.enterLName();
-		acp.enterPCode();
-		acp.clickaddCustBtn();
+		oap.clickProcessBtn();
 		Thread.sleep(1000);
-		String alertMsg = acp.acceptAlert();
-		System.out.println(alertMsg);
-			
+		String alertmsg = oap.acceptAlert();
+		System.out.println(alertmsg);
 	}
-	
+
 	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();
-	}
+	}		
 }

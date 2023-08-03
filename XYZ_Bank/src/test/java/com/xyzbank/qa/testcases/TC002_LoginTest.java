@@ -16,13 +16,13 @@ import com.xyzbank.qa.pages.AccountPage;
 import com.xyzbank.qa.pages.CustomerLoginPage;
 import com.xyzbank.qa.pages.Homepage;
 
-public class LoginTest extends TestBase {
+public class TC002_LoginTest extends TestBase {
 
 	Homepage hp;
 	CustomerLoginPage cp;
 	AccountPage ap;
 	
-	public LoginTest() throws IOException {
+	public TC002_LoginTest() throws IOException {
 		super();
 	}
 	
