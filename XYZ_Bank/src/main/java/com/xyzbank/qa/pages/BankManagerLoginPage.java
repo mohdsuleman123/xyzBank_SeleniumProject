@@ -39,10 +39,10 @@ public class BankManagerLoginPage extends TestBase{
 			return new OpenAccountPage();
 		}
 		
-		public CustomersPage clickCustomersTab() throws IOException
+		public CustomerslistPage clickCustomersTab() throws IOException
 		{
 			customersTab.click();
-			return new CustomersPage();
+			return new CustomerslistPage();
 		}
 		
 }
