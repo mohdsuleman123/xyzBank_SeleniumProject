@@ -50,7 +50,5 @@ public class OpenNewAccountTest extends TestBase{
 	public void tearDown()
 	{
 		driver.quit();
-	}
-	
-	
+	}		
 }
