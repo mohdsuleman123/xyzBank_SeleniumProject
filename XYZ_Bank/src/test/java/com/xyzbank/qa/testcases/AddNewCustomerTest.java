@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,7 @@ public class AddNewCustomerTest extends TestBase{
 		super();
 	}
 
-	@BeforeTest
+	@BeforeMethod
 	public void setup() throws IOException, InterruptedException
 	{
 		initialization();
@@ -32,8 +33,8 @@ public class AddNewCustomerTest extends TestBase{
 		bmlp=new BankManagerLoginPage();
 	}
 	
-	@Test(priority = 0)
-	public void verifyLogin() throws Exception
+	@Test
+	public void verifyManagerLogin() throws Exception
 	{
 		hp.managerloginBtn();
 		bmlp.clickaddCustomerTab();
@@ -48,7 +49,7 @@ public class AddNewCustomerTest extends TestBase{
 			
 	}
 	
-	@AfterTest
+	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();

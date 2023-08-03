@@ -7,6 +7,7 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -25,7 +26,7 @@ public class LoginTest extends TestBase {
 		super();
 	}
 	
-	@BeforeTest
+	@BeforeMethod
 	public void setup() throws IOException, InterruptedException
 	{
 		initialization();
@@ -34,7 +35,7 @@ public class LoginTest extends TestBase {
 		ap=new AccountPage();
 	}
 	
-	@Test(priority = 2)
+	@Test
 	public void verifyLogin() throws Exception
 	{
 		cp=hp.customerloginbtn();
@@ -49,7 +50,7 @@ public class LoginTest extends TestBase {
 		Thread.sleep(2000);
 	}
 	
-	@AfterTest
+	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();

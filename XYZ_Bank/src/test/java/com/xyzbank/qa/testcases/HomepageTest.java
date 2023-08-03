@@ -9,6 +9,7 @@ import static org.testng.Assert.assertEquals;
 import java.io.IOException;
 
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -24,7 +25,7 @@ public class HomepageTest extends TestBase
 		super();
 	}
 		
-	@BeforeTest
+	@BeforeMethod
 	public void setup() throws IOException
 	{
 		initialization();
@@ -38,13 +39,14 @@ public class HomepageTest extends TestBase
 		Assert.assertEquals(explogo, "XYZ Bank","Expected logo text not present");
 		String expTitle = hp.getPageTitle();
 		Assert.assertEquals(expTitle, "XYZ Bank", "Expected title not present");
-		String expUrl = hp.getPageURL();
-		Assert.assertEquals(expUrl, "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login" ,"Expected url not present");
+		String actUrl = hp.getPageURL();
+		Assert.assertEquals(actUrl, "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login" ,"Expected url not present");
+		System.out.println(actUrl);
 		Thread.sleep(2000);
 	}
 	
 	
-	@AfterTest
+	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();

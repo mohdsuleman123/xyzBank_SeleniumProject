@@ -24,10 +24,9 @@ public class TestBase
 	{
 
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\mohammed.suleman\\eclipse-workspace\\XYZ_Bank"
-					+ "\\src\\main\\java\\com\\xyzbank\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("./src/main/java/com/xyzbank/qa/config/config.properties");
 			prop.load(ip);
-		//	prop.getProperty("url");
+			prop.getProperty("url");
 
 	}
 	

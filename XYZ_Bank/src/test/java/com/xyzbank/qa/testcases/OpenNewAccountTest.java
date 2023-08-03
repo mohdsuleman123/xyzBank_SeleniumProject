@@ -1,10 +1,10 @@
 package com.xyzbank.qa.testcases;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -23,7 +23,7 @@ public class OpenNewAccountTest extends TestBase{
 		super();
 	}
 	
-	@BeforeTest
+	@BeforeMethod
 	public void setup() throws IOException, InterruptedException
 	{
 		initialization();
@@ -46,7 +46,7 @@ public class OpenNewAccountTest extends TestBase{
 		System.out.println(alertmsg);
 	}
 
-	@AfterTest
+	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();

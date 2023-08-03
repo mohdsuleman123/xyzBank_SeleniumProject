@@ -3,13 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.xyzbank.qa.testcases.HomepageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="homePageTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.xyzbank.qa.testcases.HomepageTest -->
       <class name="com.xyzbank.qa.testcases.LoginTest">
         <methods>
           <include name="setup"/>
@@ -17,13 +10,6 @@
           <include name="verifyLogin"/>
         </methods>
       </class> <!-- com.xyzbank.qa.testcases.LoginTest -->
-      <class name="com.xyzbank.qa.testcases.OpenNewAccountTest">
-        <methods>
-          <include name="createAccount"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.xyzbank.qa.testcases.OpenNewAccountTest -->
       <class name="com.xyzbank.qa.testcases.AddNewCustomerTest">
         <methods>
           <include name="setup"/>
