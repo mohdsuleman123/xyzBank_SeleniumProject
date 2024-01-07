@@ -10,7 +10,7 @@ Allure report
 
 Setup for framework - uses Page Object Model for Design Pattern:
 
-1.Creted Maven project.
+1.Created Maven project.
 
 2.Created Baseclass for browser intialization and teardown.
 
@@ -18,7 +18,9 @@ Setup for framework - uses Page Object Model for Design Pattern:
 
 4.TestNG framework is used for running tests.
 
-5.webdrivermanager dependencies is used to avoid browser version errors.
+5.Created testcases for each page.
 
-6.Allure dependencies is used for generating reports.
+6.webdrivermanager dependencies is used to avoid browser version errors.
+
+7.Allure dependencies is used for generating reports.
 
