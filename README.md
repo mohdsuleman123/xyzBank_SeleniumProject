@@ -1,11 +1,11 @@
 This is a test framework which uses Selenium for browser automation:
 
-TestNG - used for testing framework
-Selenium webdriver
-webdriver manager
-Maven
-Java
-eclipse IDE
+TestNG - used for testing framework,
+Selenium webdriver,
+webdriver manager,
+Maven,
+Java,
+eclipse IDE,
 Allure report
 
 Setup for framework - uses Page Object Model for Design Pattern:
