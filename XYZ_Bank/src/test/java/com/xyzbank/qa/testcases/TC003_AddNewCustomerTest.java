@@ -30,9 +30,9 @@ public class TC003_AddNewCustomerTest extends TestBase {
 		hp.managerLoginBtn();
 		bmlp.clickaddCustomerTab();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		acp.enterFName("selenium");
-		acp.enterLName("testing");
-		acp.enterPCode("123456");
+		acp.enterFName(prop.getProperty("fname"));
+		acp.enterLName(prop.getProperty("lname"));
+		acp.enterPCode(prop.getProperty("zip"));
 		acp.clickaddCustBtn();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		String alertMsg = acp.acceptAlert();

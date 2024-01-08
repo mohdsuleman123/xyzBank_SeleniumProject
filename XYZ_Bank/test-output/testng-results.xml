@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-08T15:44:50 IST" name="Default suite" finished-at="2024-01-08T15:45:05 IST" duration-ms="14484">
+  <suite started-at="2024-01-08T19:53:50 IST" name="Default suite" finished-at="2024-01-08T19:54:06 IST" duration-ms="16234">
     <groups>
     </groups>
-    <test started-at="2024-01-08T15:44:50 IST" name="Default test" finished-at="2024-01-08T15:45:05 IST" duration-ms="14484">
-      <class name="com.xyzbank.qa.testcases.TC004_OpenNewAccountTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@29526c05]" started-at="2024-01-08T15:44:50 IST" name="setup" finished-at="2024-01-08T15:44:59 IST" duration-ms="8897" status="PASS">
+    <test started-at="2024-01-08T19:53:50 IST" name="Default test" finished-at="2024-01-08T19:54:06 IST" duration-ms="16234">
+      <class name="com.xyzbank.qa.testcases.TC003_AddNewCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@29526c05]" started-at="2024-01-08T19:53:50 IST" name="setup" finished-at="2024-01-08T19:54:01 IST" duration-ms="11468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAccount()[pri:3, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@29526c05]" started-at="2024-01-08T15:45:00 IST" name="createAccount" finished-at="2024-01-08T15:45:04 IST" duration-ms="4021" status="PASS">
+        <test-method signature="verifyManagerLogin()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@29526c05]" started-at="2024-01-08T19:54:02 IST" name="verifyManagerLogin" finished-at="2024-01-08T19:54:05 IST" duration-ms="3097" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAccount -->
-        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@29526c05]" started-at="2024-01-08T15:45:04 IST" name="teardownBrowser" finished-at="2024-01-08T15:45:05 IST" duration-ms="777" status="PASS">
+        </test-method> <!-- verifyManagerLogin -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@29526c05]" started-at="2024-01-08T19:54:05 IST" name="teardownBrowser" finished-at="2024-01-08T19:54:06 IST" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownBrowser -->
-      </class> <!-- com.xyzbank.qa.testcases.TC004_OpenNewAccountTest -->
+      </class> <!-- com.xyzbank.qa.testcases.TC003_AddNewCustomerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
