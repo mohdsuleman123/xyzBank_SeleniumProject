@@ -10,7 +10,7 @@ import com.xyzbank.qa.base.TestBase;
 
 public class Homepage extends TestBase {
 
-	public Homepage() throws IOException {
+	public Homepage()  {
 		
 		PageFactory.initElements(driver, this);
 	}
@@ -42,13 +42,13 @@ public class Homepage extends TestBase {
 		return driver.getCurrentUrl();		
 	}
 	
-	public CustomerLoginPage customerloginbtn() throws IOException
+	public CustomerLoginPage customerLoginbtn() throws IOException
 	{
 		customerlogin.click();
 		return new CustomerLoginPage();
 	}
 	
-	public BankManagerLoginPage managerloginBtn() throws IOException
+	public BankManagerLoginPage managerLoginBtn() throws IOException
 	{
 		managerlogin.click();
 		
