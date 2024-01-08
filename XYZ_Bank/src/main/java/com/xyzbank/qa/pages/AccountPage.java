@@ -10,6 +10,7 @@ import com.xyzbank.qa.base.TestBase;
 
 public class AccountPage extends TestBase  {
 
+	
 	public AccountPage() throws IOException {
 		PageFactory.initElements(driver, this);
 	} 

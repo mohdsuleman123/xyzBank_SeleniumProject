@@ -1,81 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-06T13:58:57 IST" name="Suite" finished-at="2024-01-06T14:00:10 IST" duration-ms="72571">
+  <suite started-at="2024-01-08T15:44:50 IST" name="Default suite" finished-at="2024-01-08T15:45:05 IST" duration-ms="14484">
     <groups>
     </groups>
-    <test started-at="2024-01-06T13:58:57 IST" name="Test1" finished-at="2024-01-06T14:00:10 IST" duration-ms="72571">
-      <class name="com.xyzbank.qa.testcases.TC001_HomepageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC001_HomepageTest@4ed5eb72]" started-at="2024-01-06T13:59:43 IST" name="setup" finished-at="2024-01-06T13:59:50 IST" duration-ms="7400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="homePageTest()[pri:1, instance:com.xyzbank.qa.testcases.TC001_HomepageTest@4ed5eb72]" started-at="2024-01-06T13:59:50 IST" name="homePageTest" finished-at="2024-01-06T13:59:53 IST" duration-ms="3056" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyzbank.qa.testcases.TC001_HomepageTest@4ed5eb72]" started-at="2024-01-06T13:59:53 IST" name="tearDown" finished-at="2024-01-06T13:59:54 IST" duration-ms="658" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.xyzbank.qa.testcases.TC001_HomepageTest -->
+    <test started-at="2024-01-08T15:44:50 IST" name="Default test" finished-at="2024-01-08T15:45:05 IST" duration-ms="14484">
       <class name="com.xyzbank.qa.testcases.TC004_OpenNewAccountTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@3a4621bd]" started-at="2024-01-06T13:59:16 IST" name="setup" finished-at="2024-01-06T13:59:22 IST" duration-ms="6448" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@29526c05]" started-at="2024-01-08T15:44:50 IST" name="setup" finished-at="2024-01-08T15:44:59 IST" duration-ms="8897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAccount()[pri:3, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@3a4621bd]" started-at="2024-01-06T13:59:22 IST" name="createAccount" finished-at="2024-01-06T13:59:28 IST" duration-ms="5614" status="PASS">
+        <test-method signature="createAccount()[pri:3, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@29526c05]" started-at="2024-01-08T15:45:00 IST" name="createAccount" finished-at="2024-01-08T15:45:04 IST" duration-ms="4021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@3a4621bd]" started-at="2024-01-06T13:59:28 IST" name="tearDown" finished-at="2024-01-06T13:59:29 IST" duration-ms="819" status="PASS">
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.xyzbank.qa.testcases.TC004_OpenNewAccountTest@29526c05]" started-at="2024-01-08T15:45:04 IST" name="teardownBrowser" finished-at="2024-01-08T15:45:05 IST" duration-ms="777" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- teardownBrowser -->
       </class> <!-- com.xyzbank.qa.testcases.TC004_OpenNewAccountTest -->
-      <class name="com.xyzbank.qa.testcases.TC005_SearchCustomerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC005_SearchCustomerTest@31dadd46]" started-at="2024-01-06T13:59:29 IST" name="setup" finished-at="2024-01-06T13:59:37 IST" duration-ms="8116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySearch()[pri:0, instance:com.xyzbank.qa.testcases.TC005_SearchCustomerTest@31dadd46]" started-at="2024-01-06T13:59:37 IST" name="verifySearch" finished-at="2024-01-06T13:59:42 IST" duration-ms="4947" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyzbank.qa.testcases.TC005_SearchCustomerTest@31dadd46]" started-at="2024-01-06T13:59:42 IST" name="tearDown" finished-at="2024-01-06T13:59:43 IST" duration-ms="684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.xyzbank.qa.testcases.TC005_SearchCustomerTest -->
-      <class name="com.xyzbank.qa.testcases.TC003_AddNewCustomerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@7331196b]" started-at="2024-01-06T13:58:57 IST" name="setup" finished-at="2024-01-06T13:59:08 IST" duration-ms="10635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyManagerLogin()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@7331196b]" started-at="2024-01-06T13:59:08 IST" name="verifyManagerLogin" finished-at="2024-01-06T13:59:14 IST" duration-ms="5612" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyManagerLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyzbank.qa.testcases.TC003_AddNewCustomerTest@7331196b]" started-at="2024-01-06T13:59:14 IST" name="tearDown" finished-at="2024-01-06T13:59:16 IST" duration-ms="1577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.xyzbank.qa.testcases.TC003_AddNewCustomerTest -->
-      <class name="com.xyzbank.qa.testcases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.xyzbank.qa.testcases.TC002_LoginTest@12f9af83]" started-at="2024-01-06T13:59:54 IST" name="setup" finished-at="2024-01-06T14:00:00 IST" duration-ms="6193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.xyzbank.qa.testcases.TC002_LoginTest@12f9af83]" started-at="2024-01-06T14:00:00 IST" name="verifyLogin" finished-at="2024-01-06T14:00:09 IST" duration-ms="8543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyzbank.qa.testcases.TC002_LoginTest@12f9af83]" started-at="2024-01-06T14:00:09 IST" name="tearDown" finished-at="2024-01-06T14:00:10 IST" duration-ms="638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.xyzbank.qa.testcases.TC002_LoginTest -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
